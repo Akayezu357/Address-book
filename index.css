@@ -1,0 +1,83 @@
+div.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+div.contactForm{
+    
+    padding: 0px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+div.contactForm h2{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+div.contactForm input, select{
+    width: 100%;
+    padding: 5px;
+    border-color: black;
+}
+
+div.contactForm label{
+    font-weight: bold;
+}
+
+div.contactForm input[type = submit] {
+    width: 20%;
+    position: relative;
+    left: 215px;
+    background-color: blue;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+div.contactList{
+    
+    border: 2px solid black;
+}
+
+div.contactList h2{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+div.contactDetails{
+    border: 2px solid black;
+}
+
+div.contactDetails h2{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+div.message{
+    text-align: center;
+    color: green;
+}
+
+div.displayContacts{
+
+    text-align: center;
+    line-height: 30px;
+}
+
+div.displayContactDetails{
+    
+    text-align: center;
+    line-height: 30px;
+}
+
+.changeStyle{
+    color: red;
+}
+body{
+    background-color: grey;
+}
